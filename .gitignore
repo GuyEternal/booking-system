@@ -1,0 +1,20 @@
+# Ignore general files and directories
+api/node_modules/
+api/build/
+api/dist/
+client/node_modules/
+client/build/
+client/dist/
+.cache/
+
+# Ignore environment files
+api/.env
+client/.env
+
+# Ignore other project-specific files
+*.log
+*.lock
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
